@@ -1,0 +1,59 @@
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<main>
+		<section class="section-container">
+			<h1>Wanna know more about <span class="modal-display-name">Thee_Goats</span>? This is the most important thing you will ever read!</h1>
+
+			<ul>
+				<li class="li-green">💰 They will steal your $$</li>
+				<li class="li-yellow">💻 They will hack your device within a few minutes</li>
+				<li class="li-blue">⚛️ They can DDOS your web application within seconds</li>
+				<li class="li-pink">☕ They love taking coffee</li>
+			</ul>
+
+			<h3>Don't fear us, hire us!</h3>
+			<img src="images/bugatti.jpg">
+			<p>Having "thee_goats" in your business can be advantageous for several reasons. Firstly, they bring a unique perspective that helps identify and address vulnerabilities in your cybersecurity systems. Thee_goats' expertise allows them to uncover potential threats before malicious actors do, enhancing your overall security posture. Additionally, their skills contribute to the development of robust defense mechanisms, ensuring that your business stays resilient against evolving cyber threats. By collaborating with thee_goats, you foster a proactive and adaptive approach to cybersecurity, ultimately safeguarding your sensitive data and maintaining the trust of your clients and stakeholders. </p>
+		</section>
+	</main>
+	<div class="modal" id="modal">
+		<div class="close-modal-btn-container">
+			<button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
+		</div>
+		<div class="modal-inner" id="modal-inner">
+			<h2>We ❤️ Your Data!</h2>
+			<p class="modal-text" id="modal-text">We have a strict policy on tracking and spamming: we'll definitely track you, and we'll definitely spam you. To use this
+				site, enter your name and email address and accept our ridiculous terms and conditions.</p>
+			<form id="consent-form">
+
+				<input 
+					type="text" 
+					name="fullName" 
+					placeholder="Enter your full name"
+					aria-label="Full name" 
+					required/>
+				<input 
+					type="email" 
+					name="email" 
+					placeholder="Enter your email"
+					aria-label="Email address" 
+					required/>
+
+				<div class="modal-choice-btns" id="modal-choice-btns">
+					<button type="submit" class="modal-btn">Accept</button>
+					<button class="modal-btn" id="decline-btn">Decline</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
